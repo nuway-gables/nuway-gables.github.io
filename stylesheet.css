@@ -1,0 +1,162 @@
+/* html tags */
+
+body {
+	background-color : #d6d6ee;
+	margin-top : 0;
+	margin-left : 0;
+	font-family: verdana, sans serif;
+	}
+
+td {
+	font-family: verdana, sans serif;
+	font-size: 11px;
+	}
+
+h1 {
+	color: #a6a6e0;
+	margin-bottom : 2px;
+	font-size: 10pt;
+	}
+
+h1.welcome {
+	font-size: 11pt;
+	}
+
+/*
+h1 {
+	color: #a6a6e0;
+	margin-bottom : 2px;
+	border-bottom : 2px solid #a6a6e0;
+	padding-bottom : 4px;
+	font-size: 11pt;
+	}
+*/
+
+
+/* footer class */
+
+.footer {
+	color: #ffffff;
+	font-family: verdana;
+	font-size: 11px;
+	}
+
+
+/* side navigation */
+
+a.nav:link, a.nav:visited  {
+	color: #39399b;
+	font-family: arial, helvetica;
+	font-size: 12px;
+	text-decoration: none;
+	}
+
+a.nav:hover, a.nav:active {
+	color: #ffffff;
+	font-family: arial, helvetica;
+	font-size: 12px;
+	text-decoration: none;
+	}
+
+a.nav-a:link, a.nav-a:visited, a.nav-a:hover, a.nav-a:active {
+	color: #39399b;
+	font-family: arial, helvetica;
+	font-size: 12px;
+	text-decoration: none;
+	}
+
+
+/* specific styles */
+
+a.feature {
+	color: #39399b;
+	font-family: verdana;
+	font-size: 11px;
+	text-decoration: underline;
+	}
+
+.caphead1 {
+	color: #39399b;
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+	}
+
+.caphead2 {
+	color: #ffffff;
+	font-family: verdana;
+	font-size: 12px;
+	font-weight: bold;
+	}
+
+.cellhead {
+	color: #39399b;
+	font-family: verdana;
+	font-size: 10px;
+	}
+
+.cellsmall {
+	color: #000000;
+	font-family: verdana;
+	font-size: 9px;
+	}
+
+.celltime {
+	color: #a6a6e0;
+	font-family: verdana;
+	font-size: 10px;
+	}
+
+#featurette {
+	margin-bottom : 15px;
+	border : 1px solid #d2d2d2;
+	padding : 6px;
+	color: #8f8fd3;
+	font-size: 8pt;
+	}
+
+
+/* slideshow styles */
+
+#slideshow {
+	margin : 0;
+	background : transparent url(tour/images/slideshow-background1.jpg) no-repeat scroll top left;
+	border : 1px solid #d2d2d2;
+	width : 550px;
+	font-family: arial, helvetica;
+	color: #000000;
+	}
+
+.pagetitle {
+	margin : 10px 10px 35px 10px;
+	height : 34px;
+	color : #ababfb;
+	text-align : center;
+	font-size: 14pt;
+	}
+
+.slideshow-table {
+	margin : 0 15px 15px 15px;
+	height : 275px;
+	}
+
+.slideshow-nav {
+	margin : 20px 0 15px 0;
+	text-align : center;
+	}
+
+td.slideshow-text {
+	padding-left : 15px;
+	width : 160px;
+	vertical-align : middle;
+	font-size: 8pt;
+	font-weight: bold;
+	}
+
+td.slideshow-caption {
+	padding : 4px 0 12px 0;
+	text-align: center;
+	font-size: 8pt;
+	color: #39399b;
+	}
+
